@@ -39,8 +39,6 @@ module.exports = {
           limit: 10,
         })
       )
-  },
-
-  baseUrl: process.env.NODE_ENV === 'production' ? '/gd/page' : '/',
+  }
 
 }
